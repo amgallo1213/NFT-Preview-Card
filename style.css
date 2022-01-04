@@ -1,3 +1,11 @@
 *   {
     font-family: 'Outfit', sans-serif;
+    color: white;
+}
+#main   {
+    background-color: hsl(217, 54%, 11%);
+}
+#card   {
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
 }
