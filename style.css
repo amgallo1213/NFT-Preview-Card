@@ -13,6 +13,8 @@
     background-color: hsl(216, 50%, 16%);
     height: 650px;
     width: 400px;
+    padding: 10px;
+    margin: 150px;
 }
 #NFT-Graphic    {
     height: 350px;
@@ -36,4 +38,9 @@
 }
 .icon   {
     height: 25px; 
+    margin: 5px;
+}
+#creator    {
+    display: flex;
+    flex-direction: row;
 }
