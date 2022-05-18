@@ -4,8 +4,22 @@
 }
 #main   {
     background-color: hsl(217, 54%, 11%);
+    height: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 #card   {
     background-color: hsl(216, 50%, 16%);
+    height: 650px;
+    width: 400px;
+}
+#NFT-Graphic    {
+    height: 350px;
     width: 350px;
+    margin: 15px 20px;
+}
+#avatar {
+    height: 65px;
+    border-radius: 50%;
 }
