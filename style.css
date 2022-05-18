@@ -19,7 +19,17 @@
     width: 350px;
     margin: 15px 20px;
 }
+#countdown  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 #avatar {
     height: 65px;
     border-radius: 50%;
+}
+#time, #icon   {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
