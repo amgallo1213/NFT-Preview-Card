@@ -17,6 +17,10 @@
     margin: 150px;
     border-radius: 5%;
 }
+.body-copy  {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
 #NFT-Graphic    {
     height: 350px;
     width: 350px;
@@ -28,8 +32,9 @@
     justify-content: space-between;
 }
 #avatar {
-    height: 65px;
+    height: 60px;
     border-radius: 50%;
+    padding: 5px;
 }
 #time, #icon   {
     display: flex;
@@ -41,7 +46,22 @@
     height: 25px; 
     margin: 5px;
 }
+#icon-text  {
+    color: hsl(178, 100%, 50%);
+    font-size: 18px;
+}
+#clock-text, #creator-name {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+#name-tag   {
+    font-size: 18px;;
+}
 #creator    {
     display: flex;
     flex-direction: row;
+}
+#line  {
+    height: 2px;
+    background-color: hsl(215, 32%, 27%);
 }
