@@ -79,7 +79,7 @@ h1:hover    {
     font-size: 18px;
 }
 #name-tag   {
-    color: hsl(0, 0%, 100%);
+    color: hsl(215, 51%, 70%);
     font-size: 18px;
 }
 #creator    {
@@ -87,8 +87,13 @@ h1:hover    {
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+#creator-name   {
+    color: hsl(0, 0%, 100%);
+}
 #creator-name:hover{
     color: hsl(178, 100%, 50%);
+    
     cursor: pointer;
 }
 .line  {
